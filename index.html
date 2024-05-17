@@ -140,7 +140,7 @@
         }
 
         function onAir() {
-          debug(`On air : ${player.playerInfo.videoData.title} by ${player.playerInfo.videoData.author}
+          debug(`On air : ${player.v.videoData.title} by ${player.v.videoData.author}
             Queue position => ${player.getPlaylistIndex() + 1}/${(player.getPlaylist()) ? player.getPlaylist().length : null}
             Start at       => ${(startSeconds) ? startSeconds : 0}s/${Math.round(Math.floor(player.getDuration()))}s
             Volume         => ${volume}%
